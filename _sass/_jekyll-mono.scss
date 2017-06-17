@@ -94,7 +94,7 @@ button.button-primary:focus {
 }
 
 .intro-header .post-heading {
-  padding: 100px 0 50px;
+  padding: 10px 0 5px;
   color: $white;
   
 }
@@ -108,7 +108,7 @@ button.button-primary:focus {
 
 @media only screen and (min-width: 768px) {
   .intro-header .post-heading{
-    padding: 150px 0;
+    padding: 30px 0;
   }
 }
 
@@ -128,6 +128,10 @@ button.button-primary:focus {
     padding: 30px 0 15px;
 }
 
+.space-extra-extra-small {
+    padding: 20px 0 10px;
+}
+
 /* 
     *svg-icons
     
@@ -141,6 +145,7 @@ button.button-primary:focus {
         color: darken($mono-color,20);
       }
     }
+	word-spacing: 25px;
 }
 
 /*
@@ -240,6 +245,7 @@ button.button-primary:focus {
 
 .ch-img-1 { 
 	background-image: url(#{$avatar});
+	background-size: 220px;
 }
 
 .ch-info h3 {
